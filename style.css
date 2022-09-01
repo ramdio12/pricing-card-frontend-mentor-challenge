@@ -13,8 +13,6 @@ body{
   box-sizing: inherit;
 }
 #card{
-  width:600px;
-  height:400px;
   box-shadow:2px 3px 7px 0px rgba(0,0,0,0.35);
   border-radius:5px;
   overflow:hidden;
@@ -48,7 +46,7 @@ button:hover{
 #bottom-left-sec{
   vertical-align:top;
   display:inline-block;
-  width:50%;
+  width: 100%;
   height:100%;
   background-color: #2ab2af;
   padding:25px;
@@ -56,7 +54,8 @@ button:hover{
 #bottom-right-sec{
   vertical-align:top;
   display: inline-block;
-  width: 50%;
+/*   width: 50%; */
+  width: 100%;
   height: 100%;
   background-color: #1ac9c5;
   padding:25px;
@@ -105,4 +104,14 @@ ul{
   list-style:none;
   font-size:0.8rem;
   opacity:0.8;
+}
+
+@media (min-width:576px){
+  #card{
+    width:550px;
+  height:400px;
+  }
+  #bottom-left-sec,#bottom-right-sec{
+    width:50%;
+  }
 }
