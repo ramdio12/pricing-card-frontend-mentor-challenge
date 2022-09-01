@@ -1,0 +1,108 @@
+html{
+  box-sizing: border-box;
+  font-family:"karla";
+  font-weight:400;
+}
+h2,h4,p{
+  margin:0;
+}
+body{
+  padding:20px;
+}
+*, *:before, *:after{
+  box-sizing: inherit;
+}
+#card{
+  width:600px;
+  height:400px;
+  box-shadow:2px 3px 7px 0px rgba(0,0,0,0.35);
+  border-radius:5px;
+  overflow:hidden;
+}
+
+#top-sec{
+  width:100%;
+  height:40%;
+  padding:25px;
+}
+
+#bottom-sec{
+  width:100%;
+  height:60%;
+  color:white;
+}
+button{
+  color:white;
+  background-color:#c0df34;
+  border:none;
+  padding:10px;
+  width:100%;
+  border-radius:5px;
+}
+
+button:hover{
+  cursor:pointer;
+  background-color:#a9c42d;
+}
+
+#bottom-left-sec{
+  vertical-align:top;
+  display:inline-block;
+  width:50%;
+  height:100%;
+  background-color: #2ab2af;
+  padding:25px;
+}
+#bottom-right-sec{
+  vertical-align:top;
+  display: inline-block;
+  width: 50%;
+  height: 100%;
+  background-color: #1ac9c5;
+  padding:25px;
+}
+
+#top-sec h2{
+  color: #2ab2af;
+  margin-bottom:15px;
+}
+#top-sec h4{
+  color: #c0df34;
+  margin-bottom:10px;
+}
+#top-sec p{
+  color: #98a6bd;
+}
+#price{
+  font-weight:700;
+  font-size: 1.4rem;
+}
+
+#bottom-left-sec h4{
+  margin-bottom:25px;
+}
+
+#price,#month{
+  display:inline-block;
+}
+#month{
+  position:relative;
+  left:15px;
+  font-size:0.8rem;
+  opacity: 0.7;
+}
+#price-container{
+  margin-bottom:10px;
+}
+
+#bottom-left-sec p{
+  font-size:0.8rem;
+  margin-bottom: 30px;
+}
+
+ul{
+  padding:0;
+  list-style:none;
+  font-size:0.8rem;
+  opacity:0.8;
+}
